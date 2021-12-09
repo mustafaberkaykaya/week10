@@ -3,19 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A19BFDF2762488500D8A547 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A19BFDE2762488500D8A547 /* CustomTextField.swift */; };
 		6AF550312760E8990032BD0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF550302760E8990032BD0C /* AppDelegate.swift */; };
 		6AF550332760E8990032BD0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF550322760E8990032BD0C /* SceneDelegate.swift */; };
 		6AF550352760E8990032BD0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF550342760E8990032BD0C /* ViewController.swift */; };
 		6AF550382760E8990032BD0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF550362760E8990032BD0C /* Main.storyboard */; };
 		6AF5503A2760E89E0032BD0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF550392760E89E0032BD0C /* Assets.xcassets */; };
 		6AF5503D2760E89E0032BD0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF5503B2760E89E0032BD0C /* LaunchScreen.storyboard */; };
+		6AF550452760EA5E0032BD0C /* TwoLinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF550442760EA5D0032BD0C /* TwoLinedButton.swift */; };
+		6AF550472760EA8E0032BD0C /* IconTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF550462760EA8E0032BD0C /* IconTextButton.swift */; };
+		6AF5504D27623B470032BD0C /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5504C27623B470032BD0C /* Checkbox.swift */; };
+		75350664958A9217208D605E /* Pods_customUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D910DDAB25512BC4582C910F /* Pods_customUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		096C18C34DE73E5A281C1F1D /* Pods-customUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customUI.debug.xcconfig"; path = "Target Support Files/Pods-customUI/Pods-customUI.debug.xcconfig"; sourceTree = "<group>"; };
+		56E6D80F3559BA1F625F5100 /* Pods-customUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customUI.release.xcconfig"; path = "Target Support Files/Pods-customUI/Pods-customUI.release.xcconfig"; sourceTree = "<group>"; };
+		6A19BFDE2762488500D8A547 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		6AF5502D2760E8990032BD0C /* customUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF550302760E8990032BD0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AF550322760E8990032BD0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		6AF550392760E89E0032BD0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AF5503C2760E89E0032BD0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AF5503E2760E89E0032BD0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AF550442760EA5D0032BD0C /* TwoLinedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLinedButton.swift; sourceTree = "<group>"; };
+		6AF550462760EA8E0032BD0C /* IconTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextButton.swift; sourceTree = "<group>"; };
+		6AF5504C27623B470032BD0C /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		D910DDAB25512BC4582C910F /* Pods_customUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_customUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75350664958A9217208D605E /* Pods_customUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				6AF5502F2760E8990032BD0C /* customUI */,
 				6AF5502E2760E8990032BD0C /* Products */,
+				D37CC73F7D4A9DA1D8B099F1 /* Pods */,
+				A9A349682828B112790501C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +71,60 @@
 		6AF5502F2760E8990032BD0C /* customUI */ = {
 			isa = PBXGroup;
 			children = (
+				6AF5504B2760ED500032BD0C /* Controller */,
+				6AF5504A2760ED490032BD0C /* View */,
+				6AF550492760ED420032BD0C /* Model */,
 				6AF550302760E8990032BD0C /* AppDelegate.swift */,
 				6AF550322760E8990032BD0C /* SceneDelegate.swift */,
-				6AF550342760E8990032BD0C /* ViewController.swift */,
 				6AF550362760E8990032BD0C /* Main.storyboard */,
 				6AF550392760E89E0032BD0C /* Assets.xcassets */,
 				6AF5503B2760E89E0032BD0C /* LaunchScreen.storyboard */,
 				6AF5503E2760E89E0032BD0C /* Info.plist */,
 			);
 			path = customUI;
+			sourceTree = "<group>";
+		};
+		6AF550492760ED420032BD0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6AF5504A2760ED490032BD0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6AF550442760EA5D0032BD0C /* TwoLinedButton.swift */,
+				6AF550462760EA8E0032BD0C /* IconTextButton.swift */,
+				6AF5504C27623B470032BD0C /* Checkbox.swift */,
+				6A19BFDE2762488500D8A547 /* CustomTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6AF5504B2760ED500032BD0C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6AF550342760E8990032BD0C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A9A349682828B112790501C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D910DDAB25512BC4582C910F /* Pods_customUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D37CC73F7D4A9DA1D8B099F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				096C18C34DE73E5A281C1F1D /* Pods-customUI.debug.xcconfig */,
+				56E6D80F3559BA1F625F5100 /* Pods-customUI.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AF550412760E89E0032BD0C /* Build configuration list for PBXNativeTarget "customUI" */;
 			buildPhases = (
+				F36A62FF1803801DF0B7250C /* [CP] Check Pods Manifest.lock */,
 				6AF550292760E8990032BD0C /* Sources */,
 				6AF5502A2760E8990032BD0C /* Frameworks */,
 				6AF5502B2760E8990032BD0C /* Resources */,
+				6AF550482760EB1B0032BD0C /* Run SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -132,14 +194,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6AF550482760EB1B0032BD0C /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		F36A62FF1803801DF0B7250C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-customUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6AF550292760E8990032BD0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A19BFDF2762488500D8A547 /* CustomTextField.swift in Sources */,
 				6AF550352760E8990032BD0C /* ViewController.swift in Sources */,
+				6AF550452760EA5E0032BD0C /* TwoLinedButton.swift in Sources */,
+				6AF5504D27623B470032BD0C /* Checkbox.swift in Sources */,
 				6AF550312760E8990032BD0C /* AppDelegate.swift in Sources */,
 				6AF550332760E8990032BD0C /* SceneDelegate.swift in Sources */,
+				6AF550472760EA8E0032BD0C /* IconTextButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +392,7 @@
 		};
 		6AF550422760E89E0032BD0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 096C18C34DE73E5A281C1F1D /* Pods-customUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +412,7 @@
 		};
 		6AF550432760E89E0032BD0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E6D80F3559BA1F625F5100 /* Pods-customUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
